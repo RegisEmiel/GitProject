@@ -1,0 +1,26 @@
+Перейти в папку с проектом
+cd e:/gitproject
+
+
+Инициализация локального репозитория
+git init
+
+
+Добавляем все файлы
+git add --all
+
+
+Коммитим изменения в локальный репозиторий
+git commit -m "comment3"
+
+
+Связь с удаленным репозиторием
+git remote add origin git@github.com:RegisEmiel/GitProject.git
+
+
+Посмотреть результат связи с удаленным репозиторием
+git remote -v
+
+
+Пушим изменения на GitHub
+git push -u origin master
