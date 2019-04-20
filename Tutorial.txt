@@ -14,7 +14,7 @@ git add --all
 git commit -m "comment3"
 
 
-Связь с удаленным репозиторием
+Добавить удаленный репозиторий
 git remote add origin git@github.com:RegisEmiel/GitProject.git
 
 
@@ -24,6 +24,10 @@ git remote -v
 
 Пушим изменения на GitHub
 git push -u origin master
+
+
+Создание нового SSH-ключа
+ssh-keygen -t rsa -b 4096 -C "email"
 
 
 Запуск ssh-agent в фоновом режиме
